@@ -2,3 +2,4 @@
 %project=flipt
 %uri=https://github.com/urielaero/sqitch-intro
 
+appschema 2019-03-14T21:32:49Z Uriel Tzel <utzel@devpartners.com> # Add schema for all flipr objects.
