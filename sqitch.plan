@@ -4,3 +4,5 @@
 
 appschema 2019-03-14T21:32:49Z Uriel Tzel <utzel@devpartners.com> # Add schema for all flipr objects.
 users [appschema] 2019-03-14T22:07:49Z Uriel Tzel <utzel@devpartners.com> # create table to track our users
+insert_user [users appschema] 2019-03-14T22:17:17Z Uriel Tzel <utzel@devpartners.com> # creates a function to insert a user.
+change_pass [users appschema] 2019-03-14T22:17:58Z Uriel Tzel <utzel@devpartners.com> # creates a function to change a user password
