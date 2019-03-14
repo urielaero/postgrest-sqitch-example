@@ -11,3 +11,6 @@ change_pass [users appschema] 2019-03-14T22:17:58Z Uriel Tzel <utzel@devpartners
 flips [appschema users] 2019-03-14T22:29:12Z Uriel Tzel <utzel@devpartners.com> # Adds table for storing flips
 insert_flip [flips appschema users] 2019-03-14T22:34:31Z Uriel Tzel <utzel@devpartners.com> # Add insert_flip function
 delete_flip [flips appschema users] 2019-03-14T22:34:46Z Uriel Tzel <utzel@devpartners.com> # Add delete_flip function
+pgcrypto 2019-03-14T23:05:27Z Uriel Tzel <utzel@devpartners.com> # add pgcrypto support
+insert_user [insert_user@v1.0.0-dev1 pgcrypto] 2019-03-14T23:07:42Z Uriel Tzel <utzel@devpartners.com> # change insert_user to use pgcrypto
+change_pass [change_pass@v1.0.0-dev1 pgcrypto] 2019-03-14T23:13:25Z Uriel Tzel <utzel@devpartners.com> # change change_pass to use pgcrypto
