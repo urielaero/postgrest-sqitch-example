@@ -3,3 +3,4 @@
 %uri=https://github.com/urielaero/sqitch-intro
 
 appschema 2019-03-14T21:32:49Z Uriel Tzel <utzel@devpartners.com> # Add schema for all flipr objects.
+users [appschema] 2019-03-14T22:07:49Z Uriel Tzel <utzel@devpartners.com> # create table to track our users
