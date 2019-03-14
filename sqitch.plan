@@ -9,3 +9,5 @@ change_pass [users appschema] 2019-03-14T22:17:58Z Uriel Tzel <utzel@devpartners
 @v1.0.0-dev1 2019-03-14T22:24:42Z Uriel Tzel <utzel@devpartners.com> # Tag v1.0.0-dev1.
 
 flips [appschema users] 2019-03-14T22:29:12Z Uriel Tzel <utzel@devpartners.com> # Adds table for storing flips
+insert_flip [flips appschema users] 2019-03-14T22:34:31Z Uriel Tzel <utzel@devpartners.com> # Add insert_flip function
+delete_flip [flips appschema users] 2019-03-14T22:34:46Z Uriel Tzel <utzel@devpartners.com> # Add delete_flip function
