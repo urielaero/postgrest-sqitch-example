@@ -2,6 +2,6 @@
 
 BEGIN;
 
-SELECT has_function_privilege('flipr.insert_flip(text, text)', 'execute');
+SELECT has_function_privilege('flipr.insert_flip(int, text)', 'execute');
 
 ROLLBACK;

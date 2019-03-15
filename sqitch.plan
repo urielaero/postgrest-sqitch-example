@@ -14,3 +14,6 @@ delete_flip [flips appschema users] 2019-03-14T22:34:46Z Uriel Tzel <utzel@devpa
 pgcrypto 2019-03-14T23:05:27Z Uriel Tzel <utzel@devpartners.com> # add pgcrypto support
 insert_user [insert_user@v1.0.0-dev1 pgcrypto] 2019-03-14T23:07:42Z Uriel Tzel <utzel@devpartners.com> # change insert_user to use pgcrypto
 change_pass [change_pass@v1.0.0-dev1 pgcrypto] 2019-03-14T23:13:25Z Uriel Tzel <utzel@devpartners.com> # change change_pass to use pgcrypto
+web_annon_role 2019-03-14T23:38:21Z Uriel Tzel <utzel@devpartners.com> # add role for anon request
+todos 2019-03-15T00:12:11Z Uriel Tzel <utzel@devpartners.com> # add todo table
+role_login_user 2019-03-15T00:35:48Z Uriel Tzel <utzel@devpartners.com> # add login_user

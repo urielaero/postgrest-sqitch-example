@@ -3,7 +3,7 @@
 BEGIN;
 
 SELECT id
-     , nickname
+     , user_id
      , body
      , timestamp
   FROM flipr.flips

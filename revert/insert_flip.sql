@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP FUNCTION flipr.insert_flip(TEXT, TEXT);
+DROP FUNCTION flipr.insert_flip(int, TEXT);
 
 COMMIT;

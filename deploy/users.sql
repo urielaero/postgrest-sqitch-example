@@ -5,7 +5,8 @@ BEGIN;
 
 SET client_min_messages = 'warning';
 CREATE TABLE flipr.users (
-    nickname TEXT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
+    nickname TEXT,
     password TEXT NOT NULL,
     timestamp TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
