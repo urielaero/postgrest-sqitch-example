@@ -1,0 +1,19 @@
+---
+# example-test.yaml
+#
+# specify all your test cases as an array keys on `cases`
+cases:
+  - name: A curl runnings test case
+    url: ${TESTAPI}/todos
+    requestMethod: GET
+    # Specify the json payload we expect here
+    #expectData:
+      # The 1 key in this object specifies the matcher we want
+      # to use to test the returned payload. In this case, we
+      # require the payload is exactly what we specify.
+    #  exactly:
+    #    okay: true
+    #    msg: 'a message'
+    # Assertions about the returned status code. Pass in
+    # an acceptable code or list of codes
+    expectStatus: 200
