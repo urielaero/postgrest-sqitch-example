@@ -17,3 +17,6 @@ change_pass [change_pass@v1.0.0-dev1 pgcrypto] 2019-03-14T23:13:25Z Uriel Tzel <
 web_annon_role 2019-03-14T23:38:21Z Uriel Tzel <utzel@devpartners.com> # add role for anon request
 todos 2019-03-15T00:12:11Z Uriel Tzel <utzel@devpartners.com> # add todo table
 role_login_user 2019-03-15T00:35:48Z Uriel Tzel <utzel@devpartners.com> # add login_user
+rpc_pgjwt 2019-03-15T20:31:34Z Uriel Tzel <utzel@devpartners.com> # add rpc pgjwt sign
+rpc_jwt_token 2019-03-15T22:59:56Z Uriel Tzel <utzel@devpartners.com> # add rpc_jwt_token
+rpc_jwt_login 2019-03-16T03:30:32Z Uriel Tzel <utzel@devpartners.com> # add rpc_jwt_login
